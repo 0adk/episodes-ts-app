@@ -1,0 +1,22 @@
+{
+  "files": {
+    "static/js/0.8901b827.chunk.js": "/episodes-ts-app/static/js/0.8901b827.chunk.js",
+    "static/js/0.8901b827.chunk.js.map": "/episodes-ts-app/static/js/0.8901b827.chunk.js.map",
+    "main.css": "/episodes-ts-app/static/css/main.09ebc8bc.chunk.css",
+    "main.js": "/episodes-ts-app/static/js/main.881b58ff.chunk.js",
+    "main.js.map": "/episodes-ts-app/static/js/main.881b58ff.chunk.js.map",
+    "runtime-main.js": "/episodes-ts-app/static/js/runtime-main.d8b34145.js",
+    "runtime-main.js.map": "/episodes-ts-app/static/js/runtime-main.d8b34145.js.map",
+    "static/js/3.9cc89376.chunk.js": "/episodes-ts-app/static/js/3.9cc89376.chunk.js",
+    "static/js/3.9cc89376.chunk.js.map": "/episodes-ts-app/static/js/3.9cc89376.chunk.js.map",
+    "index.html": "/episodes-ts-app/index.html",
+    "static/css/main.09ebc8bc.chunk.css.map": "/episodes-ts-app/static/css/main.09ebc8bc.chunk.css.map",
+    "static/js/3.9cc89376.chunk.js.LICENSE.txt": "/episodes-ts-app/static/js/3.9cc89376.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8b34145.js",
+    "static/js/3.9cc89376.chunk.js",
+    "static/css/main.09ebc8bc.chunk.css",
+    "static/js/main.881b58ff.chunk.js"
+  ]
+}
