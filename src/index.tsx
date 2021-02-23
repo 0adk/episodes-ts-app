@@ -13,8 +13,8 @@ ReactDOM.render(
   <StoreProvider>
     <Router>
     <App path='/'>
-    <RouterPage pageComponent={<HomePage />} path='/' />
-    <RouterPage pageComponent={<FavouritesPage />} path='/favourites' />
+    <RouterPage pageComponent={<HomePage />} path='/episodes-ts-app' />
+    <RouterPage pageComponent={<FavouritesPage />} path='/episodes-ts-app/favourites' />
     </App>
     </Router>
   </StoreProvider>,

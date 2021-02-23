@@ -12,8 +12,8 @@ export default function App(props: any): JSX.Element {
           <p>Pic your fav episode!</p>
         </div>
         <div>
-          <Link to="/">Home</Link>
-          <Link to="/favourites">
+          <Link to="/episodes-ts-app">Home</Link>
+          <Link to="/episodes-ts-app/favourites">
             <p>
               {state.favourites.length === 0
                 ? "No fav episodes"
