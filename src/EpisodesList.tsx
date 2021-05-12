@@ -6,9 +6,10 @@ export default function EpisodesList(props: any): Array<JSX.Element> {
   const { state, dispatch} = store
 
   return episodes.map((episode: IEpisode) => {
+    var isImage = episode.image
     return (
       <section key={episode.id} className="episode-box">
-        <img src={episode.image.medium} alt={`Rick and Mort ${episode.name}`} />
+        <img src={isImage? episode.image.medium : "https://via.placeholder.com/250x140.png?text=No+Image+Available"} alt={`Rick and Mort ${episode.name}`} />
         <div>{episode.name}</div>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <p>
