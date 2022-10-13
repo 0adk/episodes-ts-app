@@ -1,17 +1,17 @@
 import React from "react";
-import { Store } from "./Store";
-import { IEpisodeProps } from "./interfaces";
-import {toggleFavAction} from './Actions'
+import { Store } from "../store/Store";
+import { IEpisodeProps } from "../interfaces";
+import { toggleFavAction } from '../store/Actions'
 
 
-const EpisodeList = React.lazy<any>(() => import("./EpisodesList"));
+const EpisodeList = React.lazy<any>(() => import("../components/EpisodesList"));
 
 export default function FavouritesPage(): JSX.Element {
   const { state, dispatch } = React.useContext(Store);
 
   const props: IEpisodeProps = {
     episodes: state.favourites,
-    store: {state, dispatch},
+    store: { state, dispatch },
     toggleFavAction,
     favourites: state.favourites,
   };

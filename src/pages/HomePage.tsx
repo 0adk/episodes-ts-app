@@ -1,9 +1,9 @@
 import React from "react";
-import { Store } from "./Store";
-import { IEpisodeProps } from "./interfaces";
-import {fetchDataAction, toggleFavAction} from './Actions'
+import { Store } from "../store/Store";
+import { IEpisodeProps } from "../interfaces";
+import { fetchDataAction, toggleFavAction } from '../store/Actions'
 
-const EpisodeList = React.lazy<any>(() => import("./EpisodesList"));
+const EpisodeList = React.lazy<any>(() => import("../components/EpisodesList"));
 
 export default function HomePage() {
   const { state, dispatch } = React.useContext(Store);
@@ -14,7 +14,7 @@ export default function HomePage() {
 
   const props: IEpisodeProps = {
     episodes: state.episodes,
-    store: {state, dispatch},
+    store: { state, dispatch },
     toggleFavAction,
     favourites: state.favourites,
   };
