@@ -8,7 +8,7 @@ export default function App(props: any): JSX.Element {
     <>
       <header className="header">
         <div>
-          <h1>Rick and Morty</h1>
+          <h1>The Office</h1>
           <p>Pic your fav episode!</p>
         </div>
         <div>
